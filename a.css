@@ -1,0 +1,92 @@
+table,td{
+    border: 2px solid;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    padding: 30px;
+}
+td div{
+    margin: 2px auto;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+    text-align: center;
+}
+.box1:hover{
+    animation-name: box1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes box1 {
+    0%{
+        transform: translateX(0px) rotate(0deg); 
+    }
+    25%{
+        transform: translateX(70px) rotate(90deg);
+    }
+    50%{
+        transform: translateX(140px) rotate(180deg); 
+    }
+    75%{
+        transform: translateX(210px) rotate(270deg);
+    }
+    100%{
+        transform: translateX(280px) rotate(360deg); 
+    }
+}
+.box2:hover{
+    animation-name: box2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes box2 {
+    0%{
+        transform: translateX(0px) rotate(0deg); 
+    }
+    25%{
+        transform: translateX(-70px) rotate(90deg);
+    }
+    50%{
+        transform: translateX(-140px) rotate(180deg); 
+    }
+    75%{
+        transform: translateX(-210px) rotate(270deg);
+    }
+    100%{
+        transform: translateX(-280px) rotate(360deg); 
+    }
+}
+.box3:hover{
+    animation-name: box3;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes box3{
+    0%{
+        transform: translateY(0px) rotate(0deg); 
+    }
+    25%{
+        transform: translateY(70px) rotate(90deg);
+    }
+    50%{
+        transform: translateY(140px) rotate(180deg); 
+    }
+    75%{
+        transform: translateY(210px) rotate(270deg);
+    }
+    100%{
+        transform: translateY(280px) rotate(360deg); 
+    }
+}
